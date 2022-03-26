@@ -1,44 +1,54 @@
 <!DOCTYPE html>
-<html>
+<html lang="en-us">
 
 <head>
   <title>Cadence Chiappe Portfolio</title>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="stylesheet" href="assets/reset.css" />
   <link rel="stylesheet" href="assets/style.css" />
 </head>
 
-<body>
-  <header>
+<header>
     <h1>Cadence Chiappe</h1>
     <div>
-        <ul>
+        <ul class="links">
             <li>
-                <a href="#">About Me</a>
+                <a href="#aboutMe">About Me</a>
             </li>
             <li>
-                <a href="#">Work</a>
+                <a href="#work">Work</a>
             </li>
             <li>
-                <a href="#">Contact Me</a>
+                <a href="#contactMe">Contact Me</a>
             </li>
             <li>
-                <a href="#">Resume</a>
+                <a href="#resume">Resume</a>
             </li>
         </ul>
     </div>
-  </header>
-  <div class="top-backgound"></div>
-  <div class="AboutMe">
-    <h1>About Me</h1>
-    <p>
-        stuff about me, somehow I will write a paragraph about myself here
-    </p>
+</header>
+
+<body>
+  <div>
+    <img class="topbackground" src="assets/Images/15FF9AC9-BF06-40BD-AA01-3AA17CFD5BEB_1_105_c.jpeg" alt="background image"/>
   </div>
-  <div class="work">
-    <h1>Work</h1>
-    <div class="projects">
+
+  <div class="row , AboutMe">
+    <h1 class= "column , titles" id="aboutMe">About Me</h1>
+    <div class="column , content-boxes">
+        <p>
+            Ultricies integer quis auctor elit sed vulputate. Nunc congue nisi vitae suscipit. Quisque egestas diam in arcu cursus euismod quis. Pulvinar mattis nunc sed blandit libero volutpat sed. Donec ultrices tincidunt arcu non sodales neque sodales ut etiam. Et ligula ullamcorper malesuada proin libero nunc consequat interdum varius. Tincidunt lobortis feugiat vivamus at augue eget. Faucibus in ornare quam viverra orci sagittis eu. Venenatis lectus magna fringilla urna porttitor rhoncus. 
+        </p>
+        <br>
+        <p>
+            Id volutpat lacus laoreet non curabitur gravida arcu ac tortor. Donec adipiscing tristique risus nec feugiat.
+        </p>
+    </div>
+  </div>
+
+  <div class="row , work">
+    <h1 class= "column , titles" id="work">Work</h1>
+    <div class="column , content-boxes , projects">
         <h2>Project 1</h2>
         <h2>Project 2</h2>
         <h2>Project 3</h2>
@@ -46,23 +56,26 @@
         <h2>Project 5</h2>
     </div>
   </div>
-  <div class="ContactMe">
-      <h1>Contact Me</h1>
-      <ul>
-          <li>
-              <a href="">(817) 219 - 2625</a>
+
+  <div class="row , ContactMe">
+      <h1 class= "column , titles" id="contactMe">Contact Me</h1>
+      <ul class="column , content-boxes">
+          <li class="CMli">
+              <a class="ContactMeLinks" href=>(817) 219 - 2625</a>
           </li>
-          <li>
-              <a href="">cadence@chiappe.com</a>
+          <li class="CMli">
+              <a class="ContactMeLinks" href="">cadence@chiappe.com</a>
           </li>
-          <li>
-              <a href="">GitHub</a>
+          <li class="CMli">
+              <a class="ContactMeLinks" href="">GitHub</a>
           </li>
-          <li>
-              <a href="">LinkedIn</a>
+          <li class="CMli">
+              <a class="ContactMeLinks" href="">LinkedIn</a>
           </li>
       </ul>
   </div>
-  <div>
-      <h1>Resume</h1>
+
+  <div class="row , resume">
+      <h1 class= "column , titles" id="resume">Resume</h1>
+      <a class="column , content-boxes , Ra" href="assets/PDFs/Cadence-C-Chiappe-Resume-PDF.pdf" target="_blank">Click here for my resume</p>
   </div>

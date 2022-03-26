@@ -2,15 +2,118 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-size: 18px;
   }
 
+  /* root styling */
+:root {
+    --white: #fff;
+    --font: Arial, Helvetica, sans-serif;
+    --title-color: darkslategrey;
+}
 
-/* for background image */
+/* body font setting */
+body {
+    font-family: var(--font);
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+/* initial header styling */
+header {
+    background-color: darkslategrey;
+    color: var(--white);
+    padding: 20px;
+}
+
+/* h1 font sizing */
+header h1 {
+    padding-top: 5px;
+    font-size: 32px;
+}
+
+/* floats list to right */
+header div {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-size: 20px;
+}
+
+/* removes default list styling */
+header div ul {
+    list-style-type: none;
+}
+
+/* better aesthetic spacing between list items */
+header div ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+/* removes default <a> text decoration */
+header div ul li a {
+    color: var(--white);
+    text-decoration: none;
+}
+
+/* for top background image */
 .topbackground {
-    height: 800px;
+    height: 150px;
     width: 100%;
     margin-bottom: 25px;
-    background-image: url("images/15FF9AC9-BF06-40BD-AA01-3AA17CFD5BEB_1_105_c.jpeg");
     background-size: cover;
     background-position: center;
 }
+
+/* setup of row structure */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+
+.titles {
+    color: var(--title-color);
+    font-size: 24px;
+    border-right: 5px;
+    border-right-style: solid;
+    border-right-color: darkslategrey;
+    width: 20%;
+    padding-top: 20px;
+    padding-right: 20px;
+    text-align: right;
+}
+
+.content-boxes {
+    width: 80%;
+    padding: 20px;
+}
+
+p {
+    line-height: 150%;
+}
+
+.CMli {
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 75px;
+}
+
+.ContactMeLinks {
+    text-decoration: underline;
+    color: black;
+}
+
+.Ra {
+    text-decoration: underline;
+    color: black;
+}
+
+@media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }
