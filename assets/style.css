@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+
+/* for background image */
+.topbackground {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("images/15FF9AC9-BF06-40BD-AA01-3AA17CFD5BEB_1_105_c.jpeg");
+    background-size: cover;
+    background-position: center;
+}
