@@ -9,7 +9,7 @@
 :root {
     --white: #fff;
     --font: Arial, Helvetica, sans-serif;
-    --title-color: darkslategrey;
+    --title-color: rgb(62, 88, 88);
 }
 
 /* body font setting */
@@ -23,7 +23,7 @@ body {
 
 /* initial header styling */
 header {
-    background-color: darkslategrey;
+    background-color: rgb(62, 88, 88);
     color: var(--white);
     padding: 20px;
 }
@@ -80,7 +80,7 @@ header div ul li a {
     font-size: 24px;
     border-right: 5px;
     border-right-style: solid;
-    border-right-color: darkslategrey;
+    border-right-color: rgb(62, 88, 88);
     width: 20%;
     padding-top: 20px;
     padding-right: 20px;
@@ -96,6 +96,85 @@ p {
     line-height: 150%;
 }
 
+.mainProject {
+    display: flex;
+    position: relative;
+    height: 400px;
+    width: 85%;
+    margin: 20px;
+    background-color: rgb(62, 88, 88);
+    background-image: url("../assets/Images/CF78A327-A75A-4C52-BF3C-69E49123ABB8_1_105_c.jpeg");
+    color: var(--white);
+}
+
+.mp {
+    position: absolute;
+    top: 250px;
+    bottom: 20px;
+    background-color: rgb(62, 88, 88);
+    padding: 20px;
+    margin-bottom: 20px;
+    line-height: 150%;
+}
+
+.subproj {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    color: var(--white);
+}
+
+.sp {
+    height: 300px;
+    width: 40%;
+    margin: 20px;
+    
+}
+
+body div div div h2 p {
+    font-weight: normal;
+    font-size: 16px;
+}
+
+.p2 {
+    background-image: url("../assets/Images/BCC5E5A4-9CDF-4F70-978C-2B8B0E55E056_1_105_c.jpeg");
+    background-size: 350px;
+}
+
+.p3 {
+    background-image: url("../assets/Images/927360A0-7109-4038-ADAA-2AE4E3F67E13_1_105_c.jpeg");
+    background-size: 350px;
+}
+
+.p4 {
+    background-image: url("../assets/Images/11365ACA-9257-4737-8654-C15D7A4CF524_1_105_c.jpeg");
+    background-size: 350px;
+}
+
+.p5 {
+    background-image: url("../assets/Images/48067B29-EB69-462E-89FF-5105DC25DEFB_1_105_c.jpeg");
+    background-size: 350px;
+}
+
+.pcontent {
+    position: absolute;
+    background-color: rgb(62, 88, 88);
+    padding: 20px;
+    margin-bottom: 10px;
+    line-height: 150%;
+}
+
+.pcontent:hover {
+    color: rgba(255, 255, 255, 1);
+    box-shadow: 0 5px 15px rgb(71, 137, 199);
+}
+
+.mp:hover {
+    color: rgba(255, 255, 255, 1);
+    box-shadow: 0 5px 15px rgb(71, 137, 199);
+}
+
 .CMli {
     list-style-type: none;
     display: inline-block;
@@ -104,16 +183,30 @@ p {
 
 .ContactMeLinks {
     text-decoration: underline;
-    color: black;
+    color: rgb(62, 88, 88);
 }
 
-.Ra {
+.ResumeAlink {
     text-decoration: underline;
-    color: black;
+    color: rgb(62, 88, 88);
+}
+
+@media screen and (max-width: 775px) {
+    .sp {
+        display: block;
+        background-size: 350px;
+    }
 }
 
 @media screen and (max-width: 600px) {
     .column {
-      width: 100%;
+        flex-direction: row;
+        width: 100%;
+    }
+    .titles {
+        border-right: none;
+        border-bottom: 5px;
+        border-bottom-style: solid;
+        border-bottom-color: rgb(62, 88, 88);
     }
   }
