@@ -100,10 +100,11 @@ p {
     display: flex;
     position: relative;
     height: 400px;
-    width: 85%;
+    width: 90%;
     margin: 20px;
     background-color: rgb(62, 88, 88);
-    background-image: url("../assets/Images/CF78A327-A75A-4C52-BF3C-69E49123ABB8_1_105_c.jpeg");
+    background-image: url("../assets/Images/Screen\ Shot\ 2022-05-19\ at\ 11.49.04\ AM.png");
+    background-size: cover;
     color: var(--white);
 }
 
@@ -115,6 +116,10 @@ p {
     padding: 20px;
     margin-bottom: 20px;
     line-height: 150%;
+}
+
+.website-link {
+    color: var(--white);
 }
 
 .subproj {
