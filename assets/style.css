@@ -120,6 +120,7 @@ p {
 
 .website-link {
     color: var(--white);
+    text-decoration: none;
 }
 
 .subproj {
