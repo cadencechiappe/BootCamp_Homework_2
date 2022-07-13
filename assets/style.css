@@ -144,7 +144,7 @@ body div div div h2 p {
 }
 
 .p2 {
-    background-image: url("../assets/Images/BCC5E5A4-9CDF-4F70-978C-2B8B0E55E056_1_105_c.jpeg");
+    background-image: url("../assets/Images/Screen\ Shot\ 2022-07-13\ at\ 10.33.21\ AM.png");
     background-size: 350px;
 }
 
@@ -169,6 +169,15 @@ body div div div h2 p {
     padding: 20px;
     margin-bottom: 10px;
     line-height: 150%;
+    max-width: 175px;
+}
+
+.pcontent p {
+    font-size: 12px;
+}
+
+.pcontent a {
+    font-size: 12px;
 }
 
 .pcontent:hover {
